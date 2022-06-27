@@ -5,7 +5,107 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    restaurant_data:[],
+    restaurant_data:
+    [
+      { "res_id":1,
+        "res_data" :
+        [
+          {
+            "staff_group_name":"Waiter Group",
+            "category":[
+              {
+                "staff_name":"waiter_1",
+                "working_hour": "AM"
+              },
+              {
+                "staff_name":"waiter_2",
+                "working_hour": "PM"
+              }
+            ]
+          },
+          {
+            "staff_group_name":"Kitchen Group",
+            "category":[
+              {
+                "staff_name":"Kitchen_1",
+                "working_hour": "AM"
+              },
+              {
+                "staff_name":"Kitchen_2",
+                "working_hour": "PM"
+              }
+            ]
+          },
+          {
+            "staff_group_name":"Chicken Soup_2",
+            "category":[
+              {
+                "staff_name":"soup_1",
+                "working_hour": "PM"
+              },
+              {
+                "staff_name":"soup_2",
+                "working_hour": "AM"
+              }
+            ]
+          },
+          {
+            "staff_group_name":"Chicken Soup_4"
+          }
+    
+  
+        ]
+      },
+      { "res_id":2,
+        "res_data" :
+        [
+          {
+            "staff_group_name":"Waiter Group",
+            "category":[
+              {
+                "staff_name":"waiter_1",
+                "working_hour": "AM"
+              },
+              {
+                "staff_name":"waiter_2",
+                "working_hour": "PM"
+              }
+            ]
+          },
+          {
+            "staff_group_name":"Kitchen Group",
+            "category":[
+              {
+                "staff_name":"Kitchen_1",
+                "working_hour": "AM"
+              },
+              {
+                "staff_name":"Kitchen_2",
+                "working_hour": "PM"
+              }
+            ]
+          },
+          {
+            "staff_group_name":"Chicken Soup_2",
+            "category":[
+              {
+                "staff_name":"soup_1",
+                "working_hour": "PM"
+              },
+              {
+                "staff_name":"soup_2",
+                "working_hour": "AM"
+              }
+            ]
+          },
+          {
+            "staff_group_name":"Chicken Soup_4"
+          }
+    
+  
+        ]
+      }
+    ],
     restaurant_name:
     [
       {

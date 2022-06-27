@@ -156,7 +156,7 @@
     },
     mounted(){
       this.restaurants = this.$store.state.restaurant_name
-      this.$store.dispatch("getRestaurantData");
+      // this.$store.dispatch("getRestaurantData");
     }
   }
 </script>
